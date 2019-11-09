@@ -3,4 +3,5 @@ Clean theme with only full-screen single photo and optional navigation bar. Mean
 
 # Sample
 ![screenshot](screenshot.png)
+
 See https://ranger.risk.ee for a live sample.
