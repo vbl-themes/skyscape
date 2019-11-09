@@ -42,12 +42,12 @@ body {
 	overflow: hidden;
 }
 
-a {
+header a {
 	color: #fff;
 	text-decoration: none;
 }
 
-a:hover {
+header a:hover {
 	color: #ff0;
 }
 
