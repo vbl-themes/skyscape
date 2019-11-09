@@ -21,16 +21,19 @@ Description: VBL - Visually Beautiful Layout. Clean single-screen theme with onl
 Author: Baltnet Communications
 Author URI: https://www.baltnet.ee
 Version: 1.0.2
+Text Domain: skyscape
 License: Apache 2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0.txt
 This theme with huge cover is meant as a landing page for websites with no particular content.
 Use a beautiful large image with a short notification and couple of external links.
 */
 
+html, body {
+	height: 100%;
+}
+
 body {
 	margin: 0;
-	width: 100%;
-	height: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
