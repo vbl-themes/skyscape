@@ -15,5 +15,9 @@
  * limitations under the License.
  */
 
-wp_enqueue_style("style", get_stylesheet_uri());
+function add_scripts_styles() {
+	wp_enqueue_style("style", get_stylesheet_uri());
+}
+
 add_theme_support("custom-logo");
+add_action("wp_enqueue_scripts", "add_scripts_styles");
